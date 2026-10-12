@@ -1,0 +1,16 @@
+﻿id,name,role,department,email,responsibility
+STK-001,Maha Al-Qahtani,Executive Sponsor,Executive Office,maha.alqahtani@example.com,"Funding, strategic alignment, major escalations and stage-gate approvals"
+STK-002,Faisal Al-Harbi,Project Manager,PMO,faisal.alharbi@example.com,"Integrated plan, delivery coordination, reporting, risks and decisions"
+STK-003,Noura Al-Otaibi,Project Coordinator,PMO,noura.alotaibi@example.com,"Meeting minutes, action log, schedule updates and document control"
+STK-004,Omar Al-Shehri,Product Owner,Business Operations,omar.alshehri@example.com,Requirements prioritization and business acceptance
+STK-005,Lina Al-Mutairi,Business Analyst,Business Analysis,lina.mutairi@example.com,"Requirements, user stories, process mapping and traceability"
+STK-006,Khalid Al-Dosari,Solution Architect,Engineering,khalid.dosari@example.com,"Architecture, integration design and technical decisions"
+STK-007,Sara Al-Ghamdi,Frontend Developer,Engineering,sara.ghamdi@example.com,"User interface, accessibility and dashboard screens"
+STK-008,Yousef Al-Qahtani,Backend Developer,Engineering,yousef.qahtani@example.com,"API, workflow engine, permissions and notifications"
+STK-009,Huda Al-Zahrani,QA Engineer,Quality Assurance,huda.zahrani@example.com,"Test strategy, test execution, defects and release quality"
+STK-010,Rakan Al-Anazi,DevOps Engineer,Platform Operations,rakan.alanazi@example.com,"CI/CD, environments, deployment, monitoring and rollback"
+STK-011,Reem Al-Shammari,Cybersecurity Specialist,Information Security,reem.shammari@example.com,"Security review, access controls and vulnerability closure"
+STK-012,Abdulaziz Al-Mansour,Data & BI Analyst,Data & Analytics,abdulaziz.mansour@example.com,"KPI definitions, data model, dashboard metrics and reconciliation"
+STK-013,Mariam Al-Hazmi,Finance Business Partner,Finance,mariam.hazmi@example.com,"Budget baseline, actuals, forecast and variance validation"
+STK-014,Turki Al-Qahtani,Operations Lead,Operations,turki.qahtani@example.com,"Operational readiness, support model and handover"
+STK-015,Dana Al-Faraj,Change & Communications Lead,Corporate Communications,dana.alfaraj@example.com,"Stakeholder communications, user adoption and training"

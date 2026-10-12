@@ -1,0 +1,9 @@
+﻿id,name,date,status,owner
+MS-01,Project Charter Approved,2026-09-04,Completed,Maha Al-Qahtani
+MS-02,Requirements Baseline Approved,2026-09-18,Completed,Omar Al-Shehri
+MS-03,Architecture & Security Design Approved,2026-10-16,At Risk,Khalid Al-Shehri
+MS-04,MVP Feature Freeze,2026-12-04,Not Started,Faisal Al-Harbi
+MS-05,System Integration Testing Complete,2027-01-22,Not Started,Huda Al-Zahrani
+MS-06,UAT Sign-off,2027-02-05,Not Started,Omar Al-Shehri
+MS-07,Production Go-Live,2027-02-12,Not Started,Rakan Al-Anazi
+MS-08,Operational Handover & Closure,2027-02-26,Not Started,Turki Al-Qahtani

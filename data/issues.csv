@@ -1,0 +1,9 @@
+﻿id,title,severity,status,owner,impact,next_action
+ISS-001,Architecture decision on authentication pattern unresolved,High,Open,Khalid Al-Dosari,Blocks TASK-009 and TASK-015,Decision meeting required by 2026-10-13
+ISS-002,Authorization defect DEF-003 blocks protected API test,Critical,Blocked,Yousef Al-Qahtani,Blocks security regression testing,"Reproduce, fix policy mapping, and request QA retest"
+ISS-003,Finance hosting estimate is overdue,Medium,Open,Mariam Al-Hazmi,Budget forecast confidence reduced,Submit estimate by 2026-10-13
+ISS-004,Dashboard KPI definitions not signed off,High,Open,Omar Al-Shehri,Blocks dashboard acceptance criteria,Obtain sign-off from business owners
+ISS-005,SSO request submitted without approved impact assessment,High,Pending Decision,Faisal Al-Harbi,Potential scope and schedule change,Complete impact assessment before approval
+ISS-006,Test environment data refresh procedure undocumented,Medium,Open,Rakan Al-Anazi,May slow test execution,Document refresh procedure and access controls
+ISS-007,One stakeholder has not responded to integration inventory,Low,Open,Lina Al-Mutairi,Could delay integration design,Follow up and escalate after two business days
+ISS-008,Acceptance criteria missing for audit log export,Medium,Open,Huda Al-Zahrani,Potential rework during UAT,"Agree format, retention and access rules"

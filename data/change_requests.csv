@@ -1,0 +1,11 @@
+﻿id,title,requestor,status,impact,decision_date,notes
+CR-001,Add CSV export to KPI dashboard,Omar Al-Shehri,Approved,Low,2026-09-22,Included in existing scope after effort review.
+CR-002,Add second approval level for high-value requests,Business Operations,Rejected,High,2026-09-25,Deferred to a future release to protect MVP date.
+CR-003,Change dashboard refresh from daily to hourly,Executive Office,Under Assessment,Medium,,Requires data platform and cost assessment.
+CR-004,Enable Single Sign-On (SSO),Information Security,Pending Approval,High,,Do not commit delivery until sponsor approval and impact assessment.
+CR-005,Add Arabic and English interface support,Corporate Communications,Approved,Medium,2026-09-29,Bilingual labels required; full translated content to be confirmed.
+CR-006,Add SMS notifications,Operations,Deferred,High,2026-10-02,Deferred due to cost and external integration dependency.
+CR-007,Add bulk task assignment,PMO,Under Assessment,Medium,,Evaluate against core workflow priorities.
+CR-008,Extend audit log retention to 24 months,Cybersecurity,Pending Approval,Medium,,"Confirm policy, storage cost, and regulatory basis."
+CR-009,Add a mobile-native application,Executive Office,Rejected,Very High,2026-10-05,Outside approved web MVP scope.
+CR-010,Add project portfolio roll-up dashboard,PMO,Under Assessment,Medium,,Assess as a post-MVP enhancement.

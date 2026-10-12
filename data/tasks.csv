@@ -1,0 +1,31 @@
+﻿id,title,workstream,owner,status,priority,due_date,progress_percent,depends_on
+TASK-001,Approve project charter,Initiation,Maha Al-Qahtani,Done,High,2026-09-04,100,
+TASK-002,Map current request and approval processes,Discovery,Lina Al-Mutairi,Done,High,2026-09-10,100,TASK-001
+TASK-003,Baseline functional requirements,Discovery,Omar Al-Shehri,Done,High,2026-09-18,100,TASK-002
+TASK-004,Confirm KPI definitions with business owners,Planning,Abdulaziz Al-Mansour,In Progress,High,2026-10-13,70,TASK-003
+TASK-005,Approve solution architecture,Design,Khalid Al-Dosari,In Progress,Critical,2026-10-14,65,TASK-003
+TASK-006,Complete threat model and security review,Security,Reem Al-Shammari,Blocked,Critical,2026-10-09,45,TASK-005
+TASK-007,Finalize UX wireframes,Design,Sara Al-Ghamdi,Done,Medium,2026-10-07,100,TASK-003
+TASK-008,Set up development and test environments,DevOps,Rakan Al-Anazi,In Progress,High,2026-10-15,75,TASK-005
+TASK-009,Implement authentication and role-based access,Development,Yousef Al-Qahtani,In Progress,Critical,2026-10-23,40,TASK-008
+TASK-010,Build request submission interface,Development,Sara Al-Ghamdi,In Progress,High,2026-10-23,55,TASK-007
+TASK-011,Build approval workflow engine,Development,Yousef Al-Qahtani,Not Started,Critical,2026-11-06,0,TASK-009
+TASK-012,Create audit log service,Development,Yousef Al-Qahtani,Not Started,High,2026-11-13,0,TASK-009
+TASK-013,Build KPI dashboard components,Development,Sara Al-Ghamdi,Not Started,High,2026-11-20,0,TASK-004
+TASK-014,Create reporting API endpoints,Development,Yousef Al-Qahtani,Not Started,High,2026-11-20,0,TASK-011
+TASK-015,Define database schema and migrations,Architecture,Khalid Al-Dosari,In Progress,High,2026-10-16,60,TASK-005
+TASK-016,Configure CI/CD pipeline,DevOps,Rakan Al-Anazi,In Progress,Medium,2026-10-16,50,TASK-008
+TASK-017,Prepare test strategy and test cases,QA,Huda Al-Zahrani,In Progress,High,2026-10-20,60,TASK-003
+TASK-018,Run security vulnerability scan,Security,Reem Al-Shammari,Not Started,Critical,2026-12-11,0,TASK-009
+TASK-019,Prepare user training materials,Change,Dana Al-Faraj,Not Started,Medium,2027-01-15,0,TASK-013
+TASK-020,Draft support and service desk runbook,Operations,Turki Al-Qahtani,Not Started,High,2027-01-20,0,TASK-014
+TASK-021,Reconcile dashboard metrics with finance source,Data,Abdulaziz Al-Mansour,At Risk,High,2026-10-08,80,TASK-004
+TASK-022,Confirm hosting cost estimate,Finance,Mariam Al-Hazmi,Overdue,Medium,2026-10-06,50,TASK-008
+TASK-023,Approve change request CR-004 for SSO,Change Control,Maha Al-Qahtani,Pending Approval,High,2026-10-13,0,TASK-005
+TASK-024,Resolve API authorization defect DEF-003,QA,Yousef Al-Qahtani,Blocked,Critical,2026-10-10,20,TASK-009
+TASK-025,Prepare weekly PMO status report,PMO,Noura Al-Otaibi,In Progress,Medium,2026-10-12,70,
+TASK-026,Schedule architecture decision meeting,PMO,Noura Al-Otaibi,Overdue,High,2026-10-08,0,TASK-005
+TASK-027,Review data retention requirements,Security,Reem Al-Shammari,In Progress,High,2026-10-16,40,TASK-003
+TASK-028,Complete integration inventory,Business Analysis,Lina Al-Mutairi,In Progress,Medium,2026-10-19,30,TASK-003
+TASK-029,Prepare UAT participant list,Business Operations,Omar Al-Shehri,Not Started,Medium,2027-01-12,0,TASK-013
+TASK-030,Confirm go-live rollback criteria,DevOps,Rakan Al-Anazi,Not Started,High,2027-01-29,0,TASK-018

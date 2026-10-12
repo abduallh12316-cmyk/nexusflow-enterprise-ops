@@ -1,0 +1,11 @@
+﻿id,type,to,subject,trigger,mode
+MAIL-001,Weekly status update,"['Maha Al-Qahtani', 'Omar Al-Shehri']",NexusFlow | Weekly Project Status — 12 Oct 2026,Weekly reporting date,Draft only
+MAIL-002,Architecture escalation,"['Maha Al-Qahtani', 'Khalid Al-Dosari']",Action Required: NexusFlow Authentication Architecture Decision,Critical decision overdue or blocking dependent work,Draft only
+MAIL-003,Overdue task reminder,['Mariam Al-Hazmi'],Follow-up: Hosting Cost Estimate Overdue,Task TASK-022 overdue,Draft only
+MAIL-004,Change approval request,['Maha Al-Qahtani'],Decision Required: CR-004 — Single Sign-On Scope Change,Change request pending approval,Draft only
+MAIL-005,Meeting invitation,"['Khalid Al-Dosari', 'Yousef Al-Qahtani', 'Reem Al-Shammari']",NexusFlow | Architecture Decision Workshop,Critical architecture decision required,Draft only
+MAIL-006,Defect escalation,"['Faisal Al-Harbi', 'Yousef Al-Qahtani', 'Huda Al-Zahrani']",Critical Defect DEF-003 Blocking Authorization Testing,Critical defect blocked beyond target date,Draft only
+MAIL-007,KPI sign-off request,"['Omar Al-Shehri', 'Abdulaziz Al-Mansour']",Action Required: Approve NexusFlow KPI Definitions,KPI definitions not signed off,Draft only
+MAIL-008,Meeting minutes,['MTG-006 attendees'],NexusFlow | Weekly Delivery Review — Minutes & Actions,Meeting minutes finalized,Draft only
+MAIL-009,Go-live readiness,"['Turki Al-Qahtani', 'Rakan Al-Anazi', 'Huda Al-Zahrani']",NexusFlow | Go-Live Readiness Review,Approaching go-live gate,Draft only
+MAIL-010,Closure and handover,"['Maha Al-Qahtani', 'Turki Al-Qahtani']",NexusFlow | Operational Handover and Closure,Closure phase initiated,Draft only

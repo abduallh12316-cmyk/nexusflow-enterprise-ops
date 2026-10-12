@@ -1,0 +1,7 @@
+﻿id,name,target_percent,actual_percent,status,owner,target_count,actual_count
+KPI-001,Overall delivery completion,38,32,Below Plan,Faisal Al-Harbi,,
+KPI-002,Milestones achieved on time,90,75,At Risk,Noura Al-Otaibi,,
+KPI-003,Critical defects open,,,Below Target,Huda Al-Zahrani,0,2
+KPI-004,Requirements with approved acceptance criteria,100,92,At Risk,Lina Al-Mutairi,,
+KPI-005,Budget forecast variance,5,5.2,Above Tolerance,Mariam Al-Hazmi,,
+KPI-006,Security findings closed before release,100,0,Not Started,Reem Al-Shammari,,

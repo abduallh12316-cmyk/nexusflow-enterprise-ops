@@ -1,0 +1,7 @@
+﻿id,date,decision,owner,rationale
+DEC-001,2026-09-04,"Approve project charter and SAR 480,000 baseline",Maha Al-Qahtani,Establishes funding and governance baseline.
+DEC-002,2026-09-18,Baseline MVP requirements,Omar Al-Shehri,Allows design and development to proceed.
+DEC-003,2026-09-25,Defer second approval level to a future release,Maha Al-Qahtani,Protects MVP schedule and avoids unassessed scope expansion.
+DEC-004,2026-09-29,Approve bilingual interface requirement,Omar Al-Shehri,Required for target user groups.
+DEC-005,2026-10-05,Keep native mobile application out of MVP,Maha Al-Qahtani,Not supported by approved scope or budget baseline.
+DEC-006,2026-10-09,Escalate authentication architecture decision,Faisal Al-Harbi,Decision delay blocks access-control and database work.

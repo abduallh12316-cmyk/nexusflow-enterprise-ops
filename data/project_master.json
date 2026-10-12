@@ -1,0 +1,1338 @@
+{
+  "project": {
+    "id": "NFX-001",
+    "name": "NexusFlow — Enterprise Operations Management Platform",
+    "organization": "NexusFlow Technologies (fictional Saudi company)",
+    "sponsor": "Maha Al-Qahtani",
+    "project_manager": "Faisal Al-Harbi",
+    "project_coordinator": "Noura Al-Otaibi",
+    "start_date": "2026-09-01",
+    "planned_end_date": "2027-02-26",
+    "reporting_date": "2026-10-12",
+    "currency": "SAR",
+    "budget_baseline": 480000,
+    "status": "AMBER",
+    "completion_percent": 32,
+    "planned_completion_percent": 38,
+    "scope_summary": "Deliver a secure web platform for internal requests, approvals, project/task tracking, KPI dashboards, audit logs, and notifications.",
+    "assumptions": [
+      "All names, email addresses, budgets, and project records are fictional.",
+      "Email sending remains in mock/draft mode unless a human explicitly approves a real integration.",
+      "Dates and progress are simulated for agent testing."
+    ]
+  },
+  "team": [
+    {
+      "id": "STK-001",
+      "name": "Maha Al-Qahtani",
+      "role": "Executive Sponsor",
+      "department": "Executive Office",
+      "email": "maha.alqahtani@example.com",
+      "responsibility": "Funding, strategic alignment, major escalations and stage-gate approvals"
+    },
+    {
+      "id": "STK-002",
+      "name": "Faisal Al-Harbi",
+      "role": "Project Manager",
+      "department": "PMO",
+      "email": "faisal.alharbi@example.com",
+      "responsibility": "Integrated plan, delivery coordination, reporting, risks and decisions"
+    },
+    {
+      "id": "STK-003",
+      "name": "Noura Al-Otaibi",
+      "role": "Project Coordinator",
+      "department": "PMO",
+      "email": "noura.alotaibi@example.com",
+      "responsibility": "Meeting minutes, action log, schedule updates and document control"
+    },
+    {
+      "id": "STK-004",
+      "name": "Omar Al-Shehri",
+      "role": "Product Owner",
+      "department": "Business Operations",
+      "email": "omar.alshehri@example.com",
+      "responsibility": "Requirements prioritization and business acceptance"
+    },
+    {
+      "id": "STK-005",
+      "name": "Lina Al-Mutairi",
+      "role": "Business Analyst",
+      "department": "Business Analysis",
+      "email": "lina.mutairi@example.com",
+      "responsibility": "Requirements, user stories, process mapping and traceability"
+    },
+    {
+      "id": "STK-006",
+      "name": "Khalid Al-Dosari",
+      "role": "Solution Architect",
+      "department": "Engineering",
+      "email": "khalid.dosari@example.com",
+      "responsibility": "Architecture, integration design and technical decisions"
+    },
+    {
+      "id": "STK-007",
+      "name": "Sara Al-Ghamdi",
+      "role": "Frontend Developer",
+      "department": "Engineering",
+      "email": "sara.ghamdi@example.com",
+      "responsibility": "User interface, accessibility and dashboard screens"
+    },
+    {
+      "id": "STK-008",
+      "name": "Yousef Al-Qahtani",
+      "role": "Backend Developer",
+      "department": "Engineering",
+      "email": "yousef.qahtani@example.com",
+      "responsibility": "API, workflow engine, permissions and notifications"
+    },
+    {
+      "id": "STK-009",
+      "name": "Huda Al-Zahrani",
+      "role": "QA Engineer",
+      "department": "Quality Assurance",
+      "email": "huda.zahrani@example.com",
+      "responsibility": "Test strategy, test execution, defects and release quality"
+    },
+    {
+      "id": "STK-010",
+      "name": "Rakan Al-Anazi",
+      "role": "DevOps Engineer",
+      "department": "Platform Operations",
+      "email": "rakan.alanazi@example.com",
+      "responsibility": "CI/CD, environments, deployment, monitoring and rollback"
+    },
+    {
+      "id": "STK-011",
+      "name": "Reem Al-Shammari",
+      "role": "Cybersecurity Specialist",
+      "department": "Information Security",
+      "email": "reem.shammari@example.com",
+      "responsibility": "Security review, access controls and vulnerability closure"
+    },
+    {
+      "id": "STK-012",
+      "name": "Abdulaziz Al-Mansour",
+      "role": "Data & BI Analyst",
+      "department": "Data & Analytics",
+      "email": "abdulaziz.mansour@example.com",
+      "responsibility": "KPI definitions, data model, dashboard metrics and reconciliation"
+    },
+    {
+      "id": "STK-013",
+      "name": "Mariam Al-Hazmi",
+      "role": "Finance Business Partner",
+      "department": "Finance",
+      "email": "mariam.hazmi@example.com",
+      "responsibility": "Budget baseline, actuals, forecast and variance validation"
+    },
+    {
+      "id": "STK-014",
+      "name": "Turki Al-Qahtani",
+      "role": "Operations Lead",
+      "department": "Operations",
+      "email": "turki.qahtani@example.com",
+      "responsibility": "Operational readiness, support model and handover"
+    },
+    {
+      "id": "STK-015",
+      "name": "Dana Al-Faraj",
+      "role": "Change & Communications Lead",
+      "department": "Corporate Communications",
+      "email": "dana.alfaraj@example.com",
+      "responsibility": "Stakeholder communications, user adoption and training"
+    }
+  ],
+  "phases": [
+    {
+      "id": "PH-01",
+      "name": "Initiation & Discovery",
+      "start": "2026-09-01",
+      "end": "2026-09-18",
+      "status": "Completed",
+      "weight": 10
+    },
+    {
+      "id": "PH-02",
+      "name": "Planning & Solution Design",
+      "start": "2026-09-14",
+      "end": "2026-10-16",
+      "status": "In Progress",
+      "weight": 20
+    },
+    {
+      "id": "PH-03",
+      "name": "Core Platform Development",
+      "start": "2026-10-05",
+      "end": "2026-12-04",
+      "status": "In Progress",
+      "weight": 30
+    },
+    {
+      "id": "PH-04",
+      "name": "Integration & Quality Assurance",
+      "start": "2026-11-23",
+      "end": "2027-01-22",
+      "status": "Not Started",
+      "weight": 20
+    },
+    {
+      "id": "PH-05",
+      "name": "UAT, Training & Go-Live",
+      "start": "2027-01-11",
+      "end": "2027-02-12",
+      "status": "Not Started",
+      "weight": 15
+    },
+    {
+      "id": "PH-06",
+      "name": "Closure & Handover",
+      "start": "2027-02-15",
+      "end": "2027-02-26",
+      "status": "Not Started",
+      "weight": 5
+    }
+  ],
+  "milestones": [
+    {
+      "id": "MS-01",
+      "name": "Project Charter Approved",
+      "date": "2026-09-04",
+      "status": "Completed",
+      "owner": "Maha Al-Qahtani"
+    },
+    {
+      "id": "MS-02",
+      "name": "Requirements Baseline Approved",
+      "date": "2026-09-18",
+      "status": "Completed",
+      "owner": "Omar Al-Shehri"
+    },
+    {
+      "id": "MS-03",
+      "name": "Architecture & Security Design Approved",
+      "date": "2026-10-16",
+      "status": "At Risk",
+      "owner": "Khalid Al-Shehri"
+    },
+    {
+      "id": "MS-04",
+      "name": "MVP Feature Freeze",
+      "date": "2026-12-04",
+      "status": "Not Started",
+      "owner": "Faisal Al-Harbi"
+    },
+    {
+      "id": "MS-05",
+      "name": "System Integration Testing Complete",
+      "date": "2027-01-22",
+      "status": "Not Started",
+      "owner": "Huda Al-Zahrani"
+    },
+    {
+      "id": "MS-06",
+      "name": "UAT Sign-off",
+      "date": "2027-02-05",
+      "status": "Not Started",
+      "owner": "Omar Al-Shehri"
+    },
+    {
+      "id": "MS-07",
+      "name": "Production Go-Live",
+      "date": "2027-02-12",
+      "status": "Not Started",
+      "owner": "Rakan Al-Anazi"
+    },
+    {
+      "id": "MS-08",
+      "name": "Operational Handover & Closure",
+      "date": "2027-02-26",
+      "status": "Not Started",
+      "owner": "Turki Al-Qahtani"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "title": "Approve project charter",
+      "workstream": "Initiation",
+      "owner": "Maha Al-Qahtani",
+      "status": "Done",
+      "priority": "High",
+      "due_date": "2026-09-04",
+      "progress_percent": 100,
+      "depends_on": null
+    },
+    {
+      "id": "TASK-002",
+      "title": "Map current request and approval processes",
+      "workstream": "Discovery",
+      "owner": "Lina Al-Mutairi",
+      "status": "Done",
+      "priority": "High",
+      "due_date": "2026-09-10",
+      "progress_percent": 100,
+      "depends_on": "TASK-001"
+    },
+    {
+      "id": "TASK-003",
+      "title": "Baseline functional requirements",
+      "workstream": "Discovery",
+      "owner": "Omar Al-Shehri",
+      "status": "Done",
+      "priority": "High",
+      "due_date": "2026-09-18",
+      "progress_percent": 100,
+      "depends_on": "TASK-002"
+    },
+    {
+      "id": "TASK-004",
+      "title": "Confirm KPI definitions with business owners",
+      "workstream": "Planning",
+      "owner": "Abdulaziz Al-Mansour",
+      "status": "In Progress",
+      "priority": "High",
+      "due_date": "2026-10-13",
+      "progress_percent": 70,
+      "depends_on": "TASK-003"
+    },
+    {
+      "id": "TASK-005",
+      "title": "Approve solution architecture",
+      "workstream": "Design",
+      "owner": "Khalid Al-Dosari",
+      "status": "In Progress",
+      "priority": "Critical",
+      "due_date": "2026-10-14",
+      "progress_percent": 65,
+      "depends_on": "TASK-003"
+    },
+    {
+      "id": "TASK-006",
+      "title": "Complete threat model and security review",
+      "workstream": "Security",
+      "owner": "Reem Al-Shammari",
+      "status": "Blocked",
+      "priority": "Critical",
+      "due_date": "2026-10-09",
+      "progress_percent": 45,
+      "depends_on": "TASK-005"
+    },
+    {
+      "id": "TASK-007",
+      "title": "Finalize UX wireframes",
+      "workstream": "Design",
+      "owner": "Sara Al-Ghamdi",
+      "status": "Done",
+      "priority": "Medium",
+      "due_date": "2026-10-07",
+      "progress_percent": 100,
+      "depends_on": "TASK-003"
+    },
+    {
+      "id": "TASK-008",
+      "title": "Set up development and test environments",
+      "workstream": "DevOps",
+      "owner": "Rakan Al-Anazi",
+      "status": "In Progress",
+      "priority": "High",
+      "due_date": "2026-10-15",
+      "progress_percent": 75,
+      "depends_on": "TASK-005"
+    },
+    {
+      "id": "TASK-009",
+      "title": "Implement authentication and role-based access",
+      "workstream": "Development",
+      "owner": "Yousef Al-Qahtani",
+      "status": "In Progress",
+      "priority": "Critical",
+      "due_date": "2026-10-23",
+      "progress_percent": 40,
+      "depends_on": "TASK-008"
+    },
+    {
+      "id": "TASK-010",
+      "title": "Build request submission interface",
+      "workstream": "Development",
+      "owner": "Sara Al-Ghamdi",
+      "status": "In Progress",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "progress_percent": 55,
+      "depends_on": "TASK-007"
+    },
+    {
+      "id": "TASK-011",
+      "title": "Build approval workflow engine",
+      "workstream": "Development",
+      "owner": "Yousef Al-Qahtani",
+      "status": "Not Started",
+      "priority": "Critical",
+      "due_date": "2026-11-06",
+      "progress_percent": 0,
+      "depends_on": "TASK-009"
+    },
+    {
+      "id": "TASK-012",
+      "title": "Create audit log service",
+      "workstream": "Development",
+      "owner": "Yousef Al-Qahtani",
+      "status": "Not Started",
+      "priority": "High",
+      "due_date": "2026-11-13",
+      "progress_percent": 0,
+      "depends_on": "TASK-009"
+    },
+    {
+      "id": "TASK-013",
+      "title": "Build KPI dashboard components",
+      "workstream": "Development",
+      "owner": "Sara Al-Ghamdi",
+      "status": "Not Started",
+      "priority": "High",
+      "due_date": "2026-11-20",
+      "progress_percent": 0,
+      "depends_on": "TASK-004"
+    },
+    {
+      "id": "TASK-014",
+      "title": "Create reporting API endpoints",
+      "workstream": "Development",
+      "owner": "Yousef Al-Qahtani",
+      "status": "Not Started",
+      "priority": "High",
+      "due_date": "2026-11-20",
+      "progress_percent": 0,
+      "depends_on": "TASK-011"
+    },
+    {
+      "id": "TASK-015",
+      "title": "Define database schema and migrations",
+      "workstream": "Architecture",
+      "owner": "Khalid Al-Dosari",
+      "status": "In Progress",
+      "priority": "High",
+      "due_date": "2026-10-16",
+      "progress_percent": 60,
+      "depends_on": "TASK-005"
+    },
+    {
+      "id": "TASK-016",
+      "title": "Configure CI/CD pipeline",
+      "workstream": "DevOps",
+      "owner": "Rakan Al-Anazi",
+      "status": "In Progress",
+      "priority": "Medium",
+      "due_date": "2026-10-16",
+      "progress_percent": 50,
+      "depends_on": "TASK-008"
+    },
+    {
+      "id": "TASK-017",
+      "title": "Prepare test strategy and test cases",
+      "workstream": "QA",
+      "owner": "Huda Al-Zahrani",
+      "status": "In Progress",
+      "priority": "High",
+      "due_date": "2026-10-20",
+      "progress_percent": 60,
+      "depends_on": "TASK-003"
+    },
+    {
+      "id": "TASK-018",
+      "title": "Run security vulnerability scan",
+      "workstream": "Security",
+      "owner": "Reem Al-Shammari",
+      "status": "Not Started",
+      "priority": "Critical",
+      "due_date": "2026-12-11",
+      "progress_percent": 0,
+      "depends_on": "TASK-009"
+    },
+    {
+      "id": "TASK-019",
+      "title": "Prepare user training materials",
+      "workstream": "Change",
+      "owner": "Dana Al-Faraj",
+      "status": "Not Started",
+      "priority": "Medium",
+      "due_date": "2027-01-15",
+      "progress_percent": 0,
+      "depends_on": "TASK-013"
+    },
+    {
+      "id": "TASK-020",
+      "title": "Draft support and service desk runbook",
+      "workstream": "Operations",
+      "owner": "Turki Al-Qahtani",
+      "status": "Not Started",
+      "priority": "High",
+      "due_date": "2027-01-20",
+      "progress_percent": 0,
+      "depends_on": "TASK-014"
+    },
+    {
+      "id": "TASK-021",
+      "title": "Reconcile dashboard metrics with finance source",
+      "workstream": "Data",
+      "owner": "Abdulaziz Al-Mansour",
+      "status": "At Risk",
+      "priority": "High",
+      "due_date": "2026-10-08",
+      "progress_percent": 80,
+      "depends_on": "TASK-004"
+    },
+    {
+      "id": "TASK-022",
+      "title": "Confirm hosting cost estimate",
+      "workstream": "Finance",
+      "owner": "Mariam Al-Hazmi",
+      "status": "Overdue",
+      "priority": "Medium",
+      "due_date": "2026-10-06",
+      "progress_percent": 50,
+      "depends_on": "TASK-008"
+    },
+    {
+      "id": "TASK-023",
+      "title": "Approve change request CR-004 for SSO",
+      "workstream": "Change Control",
+      "owner": "Maha Al-Qahtani",
+      "status": "Pending Approval",
+      "priority": "High",
+      "due_date": "2026-10-13",
+      "progress_percent": 0,
+      "depends_on": "TASK-005"
+    },
+    {
+      "id": "TASK-024",
+      "title": "Resolve API authorization defect DEF-003",
+      "workstream": "QA",
+      "owner": "Yousef Al-Qahtani",
+      "status": "Blocked",
+      "priority": "Critical",
+      "due_date": "2026-10-10",
+      "progress_percent": 20,
+      "depends_on": "TASK-009"
+    },
+    {
+      "id": "TASK-025",
+      "title": "Prepare weekly PMO status report",
+      "workstream": "PMO",
+      "owner": "Noura Al-Otaibi",
+      "status": "In Progress",
+      "priority": "Medium",
+      "due_date": "2026-10-12",
+      "progress_percent": 70,
+      "depends_on": null
+    },
+    {
+      "id": "TASK-026",
+      "title": "Schedule architecture decision meeting",
+      "workstream": "PMO",
+      "owner": "Noura Al-Otaibi",
+      "status": "Overdue",
+      "priority": "High",
+      "due_date": "2026-10-08",
+      "progress_percent": 0,
+      "depends_on": "TASK-005"
+    },
+    {
+      "id": "TASK-027",
+      "title": "Review data retention requirements",
+      "workstream": "Security",
+      "owner": "Reem Al-Shammari",
+      "status": "In Progress",
+      "priority": "High",
+      "due_date": "2026-10-16",
+      "progress_percent": 40,
+      "depends_on": "TASK-003"
+    },
+    {
+      "id": "TASK-028",
+      "title": "Complete integration inventory",
+      "workstream": "Business Analysis",
+      "owner": "Lina Al-Mutairi",
+      "status": "In Progress",
+      "priority": "Medium",
+      "due_date": "2026-10-19",
+      "progress_percent": 30,
+      "depends_on": "TASK-003"
+    },
+    {
+      "id": "TASK-029",
+      "title": "Prepare UAT participant list",
+      "workstream": "Business Operations",
+      "owner": "Omar Al-Shehri",
+      "status": "Not Started",
+      "priority": "Medium",
+      "due_date": "2027-01-12",
+      "progress_percent": 0,
+      "depends_on": "TASK-013"
+    },
+    {
+      "id": "TASK-030",
+      "title": "Confirm go-live rollback criteria",
+      "workstream": "DevOps",
+      "owner": "Rakan Al-Anazi",
+      "status": "Not Started",
+      "priority": "High",
+      "due_date": "2027-01-29",
+      "progress_percent": 0,
+      "depends_on": "TASK-018"
+    }
+  ],
+  "risks": [
+    {
+      "id": "RISK-001",
+      "description": "Architecture approval delay may compress development",
+      "probability": "High",
+      "impact": "High",
+      "rating": "Critical",
+      "owner": "Khalid Al-Dosari",
+      "status": "Open",
+      "mitigation": "Hold a 60-minute decision workshop; escalate unresolved decisions to sponsor",
+      "review_date": "2026-10-14"
+    },
+    {
+      "id": "RISK-002",
+      "description": "Security review capacity is limited",
+      "probability": "Medium",
+      "impact": "High",
+      "rating": "High",
+      "owner": "Reem Al-Shammari",
+      "status": "Open",
+      "mitigation": "Reserve security review slots and review threat model in parallel",
+      "review_date": "2026-10-16"
+    },
+    {
+      "id": "RISK-003",
+      "description": "KPI definitions differ across departments",
+      "probability": "High",
+      "impact": "Medium",
+      "rating": "High",
+      "owner": "Abdulaziz Al-Mansour",
+      "status": "Open",
+      "mitigation": "Obtain written metric definitions and named data owners",
+      "review_date": "2026-10-13"
+    },
+    {
+      "id": "RISK-004",
+      "description": "SSO change request may expand scope",
+      "probability": "Medium",
+      "impact": "High",
+      "rating": "High",
+      "owner": "Faisal Al-Harbi",
+      "status": "Pending Decision",
+      "mitigation": "Estimate effort and obtain formal change approval before commitment",
+      "review_date": "2026-10-13"
+    },
+    {
+      "id": "RISK-005",
+      "description": "Hosting costs may exceed current estimate",
+      "probability": "Medium",
+      "impact": "Medium",
+      "rating": "Medium",
+      "owner": "Mariam Al-Hazmi",
+      "status": "Open",
+      "mitigation": "Obtain two validated architecture-based estimates",
+      "review_date": "2026-10-15"
+    },
+    {
+      "id": "RISK-006",
+      "description": "User adoption may be low without training",
+      "probability": "Medium",
+      "impact": "Medium",
+      "rating": "Medium",
+      "owner": "Dana Al-Faraj",
+      "status": "Open",
+      "mitigation": "Prepare role-based training and pilot user group",
+      "review_date": "2027-01-15"
+    },
+    {
+      "id": "RISK-007",
+      "description": "External identity provider integration may be delayed",
+      "probability": "Low",
+      "impact": "High",
+      "rating": "Medium",
+      "owner": "Khalid Al-Dosari",
+      "status": "Open",
+      "mitigation": "Confirm API access and test credentials early",
+      "review_date": "2026-10-23"
+    },
+    {
+      "id": "RISK-008",
+      "description": "Incomplete audit logs may create compliance gaps",
+      "probability": "Low",
+      "impact": "High",
+      "rating": "Medium",
+      "owner": "Yousef Al-Qahtani",
+      "status": "Open",
+      "mitigation": "Define mandatory audit events and include them in acceptance tests",
+      "review_date": "2026-11-13"
+    },
+    {
+      "id": "RISK-009",
+      "description": "Historical data import may be inconsistent",
+      "probability": "Medium",
+      "impact": "Medium",
+      "rating": "Medium",
+      "owner": "Abdulaziz Al-Mansour",
+      "status": "Open",
+      "mitigation": "Define reconciliation rules and sample validation",
+      "review_date": "2026-11-20"
+    },
+    {
+      "id": "RISK-010",
+      "description": "Late defect fixes may affect go-live date",
+      "probability": "Medium",
+      "impact": "High",
+      "rating": "High",
+      "owner": "Huda Al-Zahrani",
+      "status": "Open",
+      "mitigation": "Agree severity-based exit criteria and reserve stabilization time",
+      "review_date": "2027-01-22"
+    }
+  ],
+  "issues": [
+    {
+      "id": "ISS-001",
+      "title": "Architecture decision on authentication pattern unresolved",
+      "severity": "High",
+      "status": "Open",
+      "owner": "Khalid Al-Dosari",
+      "impact": "Blocks TASK-009 and TASK-015",
+      "next_action": "Decision meeting required by 2026-10-13"
+    },
+    {
+      "id": "ISS-002",
+      "title": "Authorization defect DEF-003 blocks protected API test",
+      "severity": "Critical",
+      "status": "Blocked",
+      "owner": "Yousef Al-Qahtani",
+      "impact": "Blocks security regression testing",
+      "next_action": "Reproduce, fix policy mapping, and request QA retest"
+    },
+    {
+      "id": "ISS-003",
+      "title": "Finance hosting estimate is overdue",
+      "severity": "Medium",
+      "status": "Open",
+      "owner": "Mariam Al-Hazmi",
+      "impact": "Budget forecast confidence reduced",
+      "next_action": "Submit estimate by 2026-10-13"
+    },
+    {
+      "id": "ISS-004",
+      "title": "Dashboard KPI definitions not signed off",
+      "severity": "High",
+      "status": "Open",
+      "owner": "Omar Al-Shehri",
+      "impact": "Blocks dashboard acceptance criteria",
+      "next_action": "Obtain sign-off from business owners"
+    },
+    {
+      "id": "ISS-005",
+      "title": "SSO request submitted without approved impact assessment",
+      "severity": "High",
+      "status": "Pending Decision",
+      "owner": "Faisal Al-Harbi",
+      "impact": "Potential scope and schedule change",
+      "next_action": "Complete impact assessment before approval"
+    },
+    {
+      "id": "ISS-006",
+      "title": "Test environment data refresh procedure undocumented",
+      "severity": "Medium",
+      "status": "Open",
+      "owner": "Rakan Al-Anazi",
+      "impact": "May slow test execution",
+      "next_action": "Document refresh procedure and access controls"
+    },
+    {
+      "id": "ISS-007",
+      "title": "One stakeholder has not responded to integration inventory",
+      "severity": "Low",
+      "status": "Open",
+      "owner": "Lina Al-Mutairi",
+      "impact": "Could delay integration design",
+      "next_action": "Follow up and escalate after two business days"
+    },
+    {
+      "id": "ISS-008",
+      "title": "Acceptance criteria missing for audit log export",
+      "severity": "Medium",
+      "status": "Open",
+      "owner": "Huda Al-Zahrani",
+      "impact": "Potential rework during UAT",
+      "next_action": "Agree format, retention and access rules"
+    }
+  ],
+  "change_requests": [
+    {
+      "id": "CR-001",
+      "title": "Add CSV export to KPI dashboard",
+      "requestor": "Omar Al-Shehri",
+      "status": "Approved",
+      "impact": "Low",
+      "decision_date": "2026-09-22",
+      "notes": "Included in existing scope after effort review."
+    },
+    {
+      "id": "CR-002",
+      "title": "Add second approval level for high-value requests",
+      "requestor": "Business Operations",
+      "status": "Rejected",
+      "impact": "High",
+      "decision_date": "2026-09-25",
+      "notes": "Deferred to a future release to protect MVP date."
+    },
+    {
+      "id": "CR-003",
+      "title": "Change dashboard refresh from daily to hourly",
+      "requestor": "Executive Office",
+      "status": "Under Assessment",
+      "impact": "Medium",
+      "decision_date": null,
+      "notes": "Requires data platform and cost assessment."
+    },
+    {
+      "id": "CR-004",
+      "title": "Enable Single Sign-On (SSO)",
+      "requestor": "Information Security",
+      "status": "Pending Approval",
+      "impact": "High",
+      "decision_date": null,
+      "notes": "Do not commit delivery until sponsor approval and impact assessment."
+    },
+    {
+      "id": "CR-005",
+      "title": "Add Arabic and English interface support",
+      "requestor": "Corporate Communications",
+      "status": "Approved",
+      "impact": "Medium",
+      "decision_date": "2026-09-29",
+      "notes": "Bilingual labels required; full translated content to be confirmed."
+    },
+    {
+      "id": "CR-006",
+      "title": "Add SMS notifications",
+      "requestor": "Operations",
+      "status": "Deferred",
+      "impact": "High",
+      "decision_date": "2026-10-02",
+      "notes": "Deferred due to cost and external integration dependency."
+    },
+    {
+      "id": "CR-007",
+      "title": "Add bulk task assignment",
+      "requestor": "PMO",
+      "status": "Under Assessment",
+      "impact": "Medium",
+      "decision_date": null,
+      "notes": "Evaluate against core workflow priorities."
+    },
+    {
+      "id": "CR-008",
+      "title": "Extend audit log retention to 24 months",
+      "requestor": "Cybersecurity",
+      "status": "Pending Approval",
+      "impact": "Medium",
+      "decision_date": null,
+      "notes": "Confirm policy, storage cost, and regulatory basis."
+    },
+    {
+      "id": "CR-009",
+      "title": "Add a mobile-native application",
+      "requestor": "Executive Office",
+      "status": "Rejected",
+      "impact": "Very High",
+      "decision_date": "2026-10-05",
+      "notes": "Outside approved web MVP scope."
+    },
+    {
+      "id": "CR-010",
+      "title": "Add project portfolio roll-up dashboard",
+      "requestor": "PMO",
+      "status": "Under Assessment",
+      "impact": "Medium",
+      "decision_date": null,
+      "notes": "Assess as a post-MVP enhancement."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "DEC-001",
+      "date": "2026-09-04",
+      "decision": "Approve project charter and SAR 480,000 baseline",
+      "owner": "Maha Al-Qahtani",
+      "rationale": "Establishes funding and governance baseline."
+    },
+    {
+      "id": "DEC-002",
+      "date": "2026-09-18",
+      "decision": "Baseline MVP requirements",
+      "owner": "Omar Al-Shehri",
+      "rationale": "Allows design and development to proceed."
+    },
+    {
+      "id": "DEC-003",
+      "date": "2026-09-25",
+      "decision": "Defer second approval level to a future release",
+      "owner": "Maha Al-Qahtani",
+      "rationale": "Protects MVP schedule and avoids unassessed scope expansion."
+    },
+    {
+      "id": "DEC-004",
+      "date": "2026-09-29",
+      "decision": "Approve bilingual interface requirement",
+      "owner": "Omar Al-Shehri",
+      "rationale": "Required for target user groups."
+    },
+    {
+      "id": "DEC-005",
+      "date": "2026-10-05",
+      "decision": "Keep native mobile application out of MVP",
+      "owner": "Maha Al-Qahtani",
+      "rationale": "Not supported by approved scope or budget baseline."
+    },
+    {
+      "id": "DEC-006",
+      "date": "2026-10-09",
+      "decision": "Escalate authentication architecture decision",
+      "owner": "Faisal Al-Harbi",
+      "rationale": "Decision delay blocks access-control and database work."
+    }
+  ],
+  "meetings": [
+    {
+      "id": "MTG-001",
+      "date": "2026-09-03",
+      "title": "Project Kickoff",
+      "attendees": [
+        "Maha Al-Qahtani",
+        "Faisal Al-Harbi",
+        "Omar Al-Shehri",
+        "Khalid Al-Dosari"
+      ],
+      "minutes": "Confirmed business goals, governance, scope boundaries, and weekly reporting cadence.",
+      "actions": [
+        "Approve charter",
+        "Confirm product owner"
+      ]
+    },
+    {
+      "id": "MTG-002",
+      "date": "2026-09-10",
+      "title": "Requirements Workshop",
+      "attendees": [
+        "Omar Al-Shehri",
+        "Lina Al-Mutairi",
+        "Dana Al-Faraj"
+      ],
+      "minutes": "Mapped request submission, approvals, reporting, and notification needs.",
+      "actions": [
+        "Baseline requirements",
+        "Document acceptance criteria"
+      ]
+    },
+    {
+      "id": "MTG-003",
+      "date": "2026-09-17",
+      "title": "Requirements Sign-off",
+      "attendees": [
+        "Omar Al-Shehri",
+        "Faisal Al-Harbi",
+        "Lina Al-Mutairi"
+      ],
+      "minutes": "MVP requirements approved with mobile-native app excluded.",
+      "actions": [
+        "Publish baseline",
+        "Create initial backlog"
+      ]
+    },
+    {
+      "id": "MTG-004",
+      "date": "2026-09-24",
+      "title": "Architecture Review",
+      "attendees": [
+        "Khalid Al-Dosari",
+        "Yousef Al-Qahtani",
+        "Rakan Al-Anazi",
+        "Reem Al-Shammari"
+      ],
+      "minutes": "Authentication pattern and hosting sizing remained open.",
+      "actions": [
+        "Finalize architecture decision",
+        "Complete hosting estimate"
+      ]
+    },
+    {
+      "id": "MTG-005",
+      "date": "2026-10-01",
+      "title": "Risk and Dependency Review",
+      "attendees": [
+        "Faisal Al-Harbi",
+        "Khalid Al-Dosari",
+        "Reem Al-Shammari",
+        "Huda Al-Zahrani"
+      ],
+      "minutes": "Security capacity and architecture delay identified as key schedule risks.",
+      "actions": [
+        "Book security review",
+        "Escalate architecture decision"
+      ]
+    },
+    {
+      "id": "MTG-006",
+      "date": "2026-10-08",
+      "title": "Weekly Delivery Review",
+      "attendees": [
+        "Faisal Al-Harbi",
+        "Noura Al-Otaibi",
+        "Omar Al-Shehri",
+        "Khalid Al-Dosari"
+      ],
+      "minutes": "Overall status remains AMBER; architecture approval and hosting estimate are overdue/at risk.",
+      "actions": [
+        "Arrange decision meeting",
+        "Submit hosting estimate",
+        "Update report"
+      ]
+    }
+  ],
+  "reporting_snapshots": [
+    {
+      "period": "2026-W37",
+      "date": "2026-09-11",
+      "completion_percent": 12,
+      "planned_percent": 12,
+      "budget_actual_sar": 52000,
+      "open_critical_issues": 0,
+      "overall_status": "GREEN",
+      "notes": "Discovery and stakeholder mapping progressing as planned."
+    },
+    {
+      "period": "2026-W38",
+      "date": "2026-09-18",
+      "completion_percent": 18,
+      "planned_percent": 20,
+      "budget_actual_sar": 87000,
+      "open_critical_issues": 0,
+      "overall_status": "AMBER",
+      "notes": "Requirements sign-off completed slightly later than planned."
+    },
+    {
+      "period": "2026-W39",
+      "date": "2026-09-25",
+      "completion_percent": 24,
+      "planned_percent": 27,
+      "budget_actual_sar": 121000,
+      "open_critical_issues": 1,
+      "overall_status": "AMBER",
+      "notes": "Architecture decisions remain open."
+    },
+    {
+      "period": "2026-W40",
+      "date": "2026-10-02",
+      "completion_percent": 29,
+      "planned_percent": 34,
+      "budget_actual_sar": 158000,
+      "open_critical_issues": 1,
+      "overall_status": "AMBER",
+      "notes": "Design dependencies are affecting environment setup."
+    },
+    {
+      "period": "2026-W41",
+      "date": "2026-10-09",
+      "completion_percent": 32,
+      "planned_percent": 38,
+      "budget_actual_sar": 194000,
+      "open_critical_issues": 2,
+      "overall_status": "AMBER",
+      "notes": "Schedule gap widened; architecture and API authorization issues require action."
+    },
+    {
+      "period": "2026-W42",
+      "date": "2026-10-12",
+      "completion_percent": 32,
+      "planned_percent": 38,
+      "budget_actual_sar": 201000,
+      "open_critical_issues": 2,
+      "overall_status": "AMBER",
+      "notes": "No completion increase since last snapshot; decision and overdue task follow-up needed."
+    }
+  ],
+  "budget": {
+    "baseline_sar": 480000,
+    "actual_to_date_sar": 201000,
+    "forecast_at_completion_sar": 505000,
+    "cost_variance_actual_vs_baseline_to_date_sar": null,
+    "forecast_overrun_sar": 25000,
+    "cost_categories": [
+      {
+        "category": "Internal delivery team",
+        "baseline_sar": 260000,
+        "actual_sar": 112000
+      },
+      {
+        "category": "Cloud and environments",
+        "baseline_sar": 65000,
+        "actual_sar": 31000
+      },
+      {
+        "category": "Security and testing",
+        "baseline_sar": 55000,
+        "actual_sar": 18000
+      },
+      {
+        "category": "Software and tooling",
+        "baseline_sar": 35000,
+        "actual_sar": 19000
+      },
+      {
+        "category": "Training and change",
+        "baseline_sar": 25000,
+        "actual_sar": 4000
+      },
+      {
+        "category": "Contingency",
+        "baseline_sar": 40000,
+        "actual_sar": 17000
+      }
+    ]
+  },
+  "kpis": [
+    {
+      "id": "KPI-001",
+      "name": "Overall delivery completion",
+      "target_percent": 38,
+      "actual_percent": 32,
+      "status": "Below Plan",
+      "owner": "Faisal Al-Harbi"
+    },
+    {
+      "id": "KPI-002",
+      "name": "Milestones achieved on time",
+      "target_percent": 90,
+      "actual_percent": 75,
+      "status": "At Risk",
+      "owner": "Noura Al-Otaibi"
+    },
+    {
+      "id": "KPI-003",
+      "name": "Critical defects open",
+      "target_count": 0,
+      "actual_count": 2,
+      "status": "Below Target",
+      "owner": "Huda Al-Zahrani"
+    },
+    {
+      "id": "KPI-004",
+      "name": "Requirements with approved acceptance criteria",
+      "target_percent": 100,
+      "actual_percent": 92,
+      "status": "At Risk",
+      "owner": "Lina Al-Mutairi"
+    },
+    {
+      "id": "KPI-005",
+      "name": "Budget forecast variance",
+      "target_percent": 5,
+      "actual_percent": 5.2,
+      "status": "Above Tolerance",
+      "owner": "Mariam Al-Hazmi"
+    },
+    {
+      "id": "KPI-006",
+      "name": "Security findings closed before release",
+      "target_percent": 100,
+      "actual_percent": 0,
+      "status": "Not Started",
+      "owner": "Reem Al-Shammari"
+    }
+  ],
+  "defects": [
+    {
+      "id": "DEF-001",
+      "title": "Dashboard date filter resets after navigation",
+      "severity": "Medium",
+      "status": "Open",
+      "owner": "Sara Al-Ghamdi",
+      "reproduction_steps": [
+        "Open dashboard",
+        "Select a date range",
+        "Navigate to requests",
+        "Return to dashboard"
+      ],
+      "expected": "Selected date range remains applied",
+      "actual": "Filter resets to default"
+    },
+    {
+      "id": "DEF-002",
+      "title": "Approval history displays UTC without local label",
+      "severity": "Low",
+      "status": "Open",
+      "owner": "Yousef Al-Qahtani",
+      "reproduction_steps": [
+        "Open an approved request",
+        "View approval history"
+      ],
+      "expected": "Timestamp timezone is clear",
+      "actual": "Timestamp appears without timezone label"
+    },
+    {
+      "id": "DEF-003",
+      "title": "API authorization policy rejects valid role mapping",
+      "severity": "Critical",
+      "status": "Blocked",
+      "owner": "Yousef Al-Qahtani",
+      "reproduction_steps": [
+        "Authenticate as Operations Approver",
+        "Request protected approval endpoint"
+      ],
+      "expected": "Authorized role receives access",
+      "actual": "403 returned for valid role"
+    },
+    {
+      "id": "DEF-004",
+      "title": "Arabic label overflows on narrow dashboard card",
+      "severity": "Low",
+      "status": "Open",
+      "owner": "Sara Al-Ghamdi",
+      "reproduction_steps": [
+        "Switch interface to Arabic",
+        "Open KPI dashboard on narrow viewport"
+      ],
+      "expected": "Text wraps within card",
+      "actual": "Label overlaps adjacent icon"
+    },
+    {
+      "id": "DEF-005",
+      "title": "CSV export omits filter criteria in metadata",
+      "severity": "Medium",
+      "status": "Open",
+      "owner": "Yousef Al-Qahtani",
+      "reproduction_steps": [
+        "Filter KPI dashboard",
+        "Export CSV",
+        "Inspect export metadata"
+      ],
+      "expected": "Export includes selected filters",
+      "actual": "Filter metadata missing"
+    }
+  ],
+  "emails": [
+    {
+      "id": "MAIL-001",
+      "type": "Weekly status update",
+      "to": [
+        "Maha Al-Qahtani",
+        "Omar Al-Shehri"
+      ],
+      "subject": "NexusFlow | Weekly Project Status — 12 Oct 2026",
+      "trigger": "Weekly reporting date",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-002",
+      "type": "Architecture escalation",
+      "to": [
+        "Maha Al-Qahtani",
+        "Khalid Al-Dosari"
+      ],
+      "subject": "Action Required: NexusFlow Authentication Architecture Decision",
+      "trigger": "Critical decision overdue or blocking dependent work",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-003",
+      "type": "Overdue task reminder",
+      "to": [
+        "Mariam Al-Hazmi"
+      ],
+      "subject": "Follow-up: Hosting Cost Estimate Overdue",
+      "trigger": "Task TASK-022 overdue",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-004",
+      "type": "Change approval request",
+      "to": [
+        "Maha Al-Qahtani"
+      ],
+      "subject": "Decision Required: CR-004 — Single Sign-On Scope Change",
+      "trigger": "Change request pending approval",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-005",
+      "type": "Meeting invitation",
+      "to": [
+        "Khalid Al-Dosari",
+        "Yousef Al-Qahtani",
+        "Reem Al-Shammari"
+      ],
+      "subject": "NexusFlow | Architecture Decision Workshop",
+      "trigger": "Critical architecture decision required",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-006",
+      "type": "Defect escalation",
+      "to": [
+        "Faisal Al-Harbi",
+        "Yousef Al-Qahtani",
+        "Huda Al-Zahrani"
+      ],
+      "subject": "Critical Defect DEF-003 Blocking Authorization Testing",
+      "trigger": "Critical defect blocked beyond target date",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-007",
+      "type": "KPI sign-off request",
+      "to": [
+        "Omar Al-Shehri",
+        "Abdulaziz Al-Mansour"
+      ],
+      "subject": "Action Required: Approve NexusFlow KPI Definitions",
+      "trigger": "KPI definitions not signed off",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-008",
+      "type": "Meeting minutes",
+      "to": [
+        "MTG-006 attendees"
+      ],
+      "subject": "NexusFlow | Weekly Delivery Review — Minutes & Actions",
+      "trigger": "Meeting minutes finalized",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-009",
+      "type": "Go-live readiness",
+      "to": [
+        "Turki Al-Qahtani",
+        "Rakan Al-Anazi",
+        "Huda Al-Zahrani"
+      ],
+      "subject": "NexusFlow | Go-Live Readiness Review",
+      "trigger": "Approaching go-live gate",
+      "mode": "Draft only"
+    },
+    {
+      "id": "MAIL-010",
+      "type": "Closure and handover",
+      "to": [
+        "Maha Al-Qahtani",
+        "Turki Al-Qahtani"
+      ],
+      "subject": "NexusFlow | Operational Handover and Closure",
+      "trigger": "Closure phase initiated",
+      "mode": "Draft only"
+    }
+  ]
+}

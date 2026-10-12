@@ -1,0 +1,11 @@
+﻿id,description,probability,impact,rating,owner,status,mitigation,review_date
+RISK-001,Architecture approval delay may compress development,High,High,Critical,Khalid Al-Dosari,Open,Hold a 60-minute decision workshop; escalate unresolved decisions to sponsor,2026-10-14
+RISK-002,Security review capacity is limited,Medium,High,High,Reem Al-Shammari,Open,Reserve security review slots and review threat model in parallel,2026-10-16
+RISK-003,KPI definitions differ across departments,High,Medium,High,Abdulaziz Al-Mansour,Open,Obtain written metric definitions and named data owners,2026-10-13
+RISK-004,SSO change request may expand scope,Medium,High,High,Faisal Al-Harbi,Pending Decision,Estimate effort and obtain formal change approval before commitment,2026-10-13
+RISK-005,Hosting costs may exceed current estimate,Medium,Medium,Medium,Mariam Al-Hazmi,Open,Obtain two validated architecture-based estimates,2026-10-15
+RISK-006,User adoption may be low without training,Medium,Medium,Medium,Dana Al-Faraj,Open,Prepare role-based training and pilot user group,2027-01-15
+RISK-007,External identity provider integration may be delayed,Low,High,Medium,Khalid Al-Dosari,Open,Confirm API access and test credentials early,2026-10-23
+RISK-008,Incomplete audit logs may create compliance gaps,Low,High,Medium,Yousef Al-Qahtani,Open,Define mandatory audit events and include them in acceptance tests,2026-11-13
+RISK-009,Historical data import may be inconsistent,Medium,Medium,Medium,Abdulaziz Al-Mansour,Open,Define reconciliation rules and sample validation,2026-11-20
+RISK-010,Late defect fixes may affect go-live date,Medium,High,High,Huda Al-Zahrani,Open,Agree severity-based exit criteria and reserve stabilization time,2027-01-22

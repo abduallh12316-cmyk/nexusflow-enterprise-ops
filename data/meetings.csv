@@ -1,0 +1,7 @@
+﻿id,date,title,attendees,minutes,actions
+MTG-001,2026-09-03,Project Kickoff,"['Maha Al-Qahtani', 'Faisal Al-Harbi', 'Omar Al-Shehri', 'Khalid Al-Dosari']","Confirmed business goals, governance, scope boundaries, and weekly reporting cadence.","['Approve charter', 'Confirm product owner']"
+MTG-002,2026-09-10,Requirements Workshop,"['Omar Al-Shehri', 'Lina Al-Mutairi', 'Dana Al-Faraj']","Mapped request submission, approvals, reporting, and notification needs.","['Baseline requirements', 'Document acceptance criteria']"
+MTG-003,2026-09-17,Requirements Sign-off,"['Omar Al-Shehri', 'Faisal Al-Harbi', 'Lina Al-Mutairi']",MVP requirements approved with mobile-native app excluded.,"['Publish baseline', 'Create initial backlog']"
+MTG-004,2026-09-24,Architecture Review,"['Khalid Al-Dosari', 'Yousef Al-Qahtani', 'Rakan Al-Anazi', 'Reem Al-Shammari']",Authentication pattern and hosting sizing remained open.,"['Finalize architecture decision', 'Complete hosting estimate']"
+MTG-005,2026-10-01,Risk and Dependency Review,"['Faisal Al-Harbi', 'Khalid Al-Dosari', 'Reem Al-Shammari', 'Huda Al-Zahrani']",Security capacity and architecture delay identified as key schedule risks.,"['Book security review', 'Escalate architecture decision']"
+MTG-006,2026-10-08,Weekly Delivery Review,"['Faisal Al-Harbi', 'Noura Al-Otaibi', 'Omar Al-Shehri', 'Khalid Al-Dosari']",Overall status remains AMBER; architecture approval and hosting estimate are overdue/at risk.,"['Arrange decision meeting', 'Submit hosting estimate', 'Update report']"

@@ -1,0 +1,7 @@
+﻿period,date,completion_percent,planned_percent,budget_actual_sar,open_critical_issues,overall_status,notes
+2026-W37,2026-09-11,12,12,52000,0,GREEN,Discovery and stakeholder mapping progressing as planned.
+2026-W38,2026-09-18,18,20,87000,0,AMBER,Requirements sign-off completed slightly later than planned.
+2026-W39,2026-09-25,24,27,121000,1,AMBER,Architecture decisions remain open.
+2026-W40,2026-10-02,29,34,158000,1,AMBER,Design dependencies are affecting environment setup.
+2026-W41,2026-10-09,32,38,194000,2,AMBER,Schedule gap widened; architecture and API authorization issues require action.
+2026-W42,2026-10-12,32,38,201000,2,AMBER,No completion increase since last snapshot; decision and overdue task follow-up needed.

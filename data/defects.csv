@@ -1,0 +1,6 @@
+﻿id,title,severity,status,owner,reproduction_steps,expected,actual
+DEF-001,Dashboard date filter resets after navigation,Medium,Open,Sara Al-Ghamdi,"['Open dashboard', 'Select a date range', 'Navigate to requests', 'Return to dashboard']",Selected date range remains applied,Filter resets to default
+DEF-002,Approval history displays UTC without local label,Low,Open,Yousef Al-Qahtani,"['Open an approved request', 'View approval history']",Timestamp timezone is clear,Timestamp appears without timezone label
+DEF-003,API authorization policy rejects valid role mapping,Critical,Blocked,Yousef Al-Qahtani,"['Authenticate as Operations Approver', 'Request protected approval endpoint']",Authorized role receives access,403 returned for valid role
+DEF-004,Arabic label overflows on narrow dashboard card,Low,Open,Sara Al-Ghamdi,"['Switch interface to Arabic', 'Open KPI dashboard on narrow viewport']",Text wraps within card,Label overlaps adjacent icon
+DEF-005,CSV export omits filter criteria in metadata,Medium,Open,Yousef Al-Qahtani,"['Filter KPI dashboard', 'Export CSV', 'Inspect export metadata']",Export includes selected filters,Filter metadata missing
